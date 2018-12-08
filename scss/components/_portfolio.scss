@@ -1,0 +1,18 @@
+#portfolio.section {
+	background-color: #60d7a9;
+}
+
+@media only screen and (min-width: 767px) {
+	#portfolio.section {
+	    padding-left: 1rem;
+	    padding-right: 1rem;
+	}	
+}
+
+
+@media only screen and (min-width: 991px) {
+	#portfolio.section {
+	    padding-left: 5rem;
+	    padding-right: 5rem;
+	}	
+}

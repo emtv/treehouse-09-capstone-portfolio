@@ -1,0 +1,93 @@
+#services.section {
+	background-color: #fff;
+}
+
+.box-service img {
+	width: 40%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.main_services {
+	max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    margin-top: 3rem !important;
+}
+
+.main_services .row {
+	margin: 0 !important;
+}
+
+.box-service {
+    border: solid 1px #d8d8d8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -moz-flex: flex;
+    -ms-flex: flex;
+    -o-flex: flex;
+    -webkit-box-flex: flex;
+    flex: flex;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    h3 {
+    	font-size: 1.8rem !important;
+    	width: 100%;
+    }
+}
+
+.services {
+	&-upgrades {
+		background-color: rgba(41,128,185,0.6);
+	}
+	&-migrations {
+		background-color: rgba(46,204,113,0.6);
+	}
+	&-emergency {
+		background-color: rgba(231,76,60,0.6);
+	}
+	&-woocommerce {
+		background-color: rgba(155,89,182,0.6);
+	}
+	&-services {
+		background-color: rgba(26,188,156,0.6);
+	}
+	&-support {
+		background-color: rgba(216,216,216,0.6);
+	}
+	&-24 {
+		background-color: rgba(216,216,216,0.6);
+	}
+	&-process {
+		background-color: rgba(243,156,18,0.6);
+	}
+}
+
+@media only screen and (min-width: 767px) {
+	#services.section {
+	    padding-left: 5rem;
+	    padding-right: 5rem;
+	}
+
+	.box-service h3 {
+		font-size: 1.4rem !important;
+	}
+
+	.main_services {
+		width:100%;
+	}
+
+	.container_services a {
+		padding: 2rem 0 !important;
+	}
+}
+
+@media only screen and (min-width: 991px) {
+	.main_services {
+		width:75%;
+	}
+}

@@ -1,0 +1,84 @@
+#aboutMe {
+	background-color: #ECF0F0;
+}
+
+.header-section {
+	i {
+		font-size: 5rem;
+	    text-align: center;
+	    margin: 0 auto;
+	    display: block;	
+	}
+	h1 {
+		margin: 0;
+	}
+}
+
+.section-process {
+	p {
+		i {
+			padding: 1rem;
+			background-color: #fff;
+			border-radius: 50%;
+		}
+	}
+}
+
+.section-work .col .fun-fact img {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.client a img {
+	display: block;
+	margin: 0 auto;
+}	
+
+
+@media only screen and (min-width: 767px) {
+	#aboutMe {
+	    padding-left: 5rem;
+	    padding-right: 5rem;
+	}
+
+
+	.service-image {
+		img {
+			width: 40% !important;
+			display: block !important;
+			margin: 0 auto !important;
+		}
+	}
+
+	.process p i {
+	    padding: 2rem;
+	    border-radius: 15px 0;
+	    font-size: 3rem;
+	}
+
+	.service-description h4 {
+		text-align: center;
+	}	
+	
+	.client a img {
+		width: 80% !important;
+	}
+
+}
+
+@media only screen and (min-width: 991px) {
+
+	.service-description {
+		text-align: center;
+	}
+
+	.client a img {
+		width: 50% !important;
+	}	
+
+	.section-work .col .fun-fact img {
+		width: 30% !important;
+	}
+
+}

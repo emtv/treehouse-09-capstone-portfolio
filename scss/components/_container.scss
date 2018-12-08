@@ -1,0 +1,46 @@
+main.container {
+	height: 100vh;
+	max-width: 100% !important;
+	width: 100% !important;
+	margin: 0 !important;
+}
+
+main > .col {
+	padding: 0 !important;
+}
+
+.contentProfile {
+	position: relative;
+}
+
+.section-container {
+    padding: 0 2rem;
+}
+
+.header-section > * {
+	color: #345;
+}
+
+.page-title {
+    margin: 0;
+    padding: .6em 0;
+    text-align: center;
+}
+
+.viewoff {
+	display: none;
+	// position: absolute;
+	// visibility: hidden;
+	// opacity: 1;
+	// margin-top: -500%;
+	// transition: ease .7s;
+}
+
+.viewon {
+	// display: block;
+	// position: relative;
+	// visibility: visible;
+	// opacity: 1;
+	// margin-top: 0;
+	// transition: ease 0.5s;
+}
